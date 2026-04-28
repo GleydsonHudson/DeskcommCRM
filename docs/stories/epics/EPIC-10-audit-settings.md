@@ -4,7 +4,7 @@ epic_name: Audit & Settings
 priority: P0
 estimated_waves: 9
 estimated_total_points: 26
-depends_on: [EPIC-01, EPIC-09]
+depends_on: [EPIC-00, EPIC-01]
 exposes_contracts:
   - "route./app/audit"
   - "route./app/settings/profile"

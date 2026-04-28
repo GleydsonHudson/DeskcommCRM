@@ -4,7 +4,7 @@ epic_name: Team & Permissions
 priority: P0
 estimated_waves: 7
 estimated_total_points: 19
-depends_on: [EPIC-00, EPIC-01, EPIC-10]
+depends_on: [EPIC-00, EPIC-01]
 exposes_contracts:
   - "api.POST /api/v1/team/invite"
   - "api.PATCH /api/v1/team/[user_id]/role"
