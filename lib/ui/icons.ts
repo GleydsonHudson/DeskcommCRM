@@ -4,8 +4,8 @@
  */
 
 export {
-  // navigation
-  Inbox,
+  // navigation (inbox icon = Tray in Phosphor)
+  Tray as Inbox,
   Kanban,
   Users,
   Storefront,
