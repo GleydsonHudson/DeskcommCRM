@@ -37,18 +37,17 @@ Ordem definida pelo Rafael: **PRD → Regras de Negócio → Specs → Epics →
 - [x] Regras de IA (IA-01 a IA-11) — idem
 - [x] Regras de billing/uso (B-01 a B-05) — idem
 
-## Fase 3 — Specs Técnicas
+## Fase 3 — Specs Técnicas — **COMPLETA (8 specs, ~60k palavras)**
 
-- [ ] Spec arquitetural geral (camadas, contratos, fluxos)
-- [ ] Spec de schema do banco (todas as tabelas + RLS + indexes + triggers)
-- [ ] Spec da API REST `/api/v1/` (endpoints + payloads + erros)
-- [ ] Spec de eventos (event_log + workers + naming)
-- [ ] Spec de webhooks inbound/outbound (HMAC + retry + idempotência)
-- [ ] Spec de WAHA integration (setup, sessões, handlers)
-- [ ] Spec de RAG por tenant (vector store, ingestão, roteamento)
-- [ ] Spec de UI (3 colunas chat, kanban, dashboards)
-- [ ] Spec de auth + RBAC + super-admin
-- [ ] Spec de observability (logs, métricas, audit, Sentry)
+- [x] Spec 01 Plataforma Base (auth, RLS templates, audit, LGPD framework, API conventions)
+- [x] Spec 02 Customer 360 + Identity Resolution
+- [x] Spec 03 WhatsApp via WAHA Plus
+- [x] Spec 04 Pipeline Kanban + Atendimento (UI 3 colunas)
+- [x] Spec 05 IA + RAG + Sentiment + Handoff
+- [x] Spec 06 Nuvemshop + LGPD
+- [x] Spec 07 Event Log + Workers + Crons (transversal)
+- [x] Spec 08 Deploy + Observability (transversal)
+- [x] 15 diagramas Mermaid em `docs/research/architecture-diagrams.md`
 
 ## Fase 4 — Epics
 
